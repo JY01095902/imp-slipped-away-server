@@ -5,6 +5,7 @@ MAINTAINER Shi.Yanxun
 RUN go get github.com/gorilla/websocket
 RUN go get github.com/aliyun/aliyun-tablestore-go-sdk
 RUN go get github.com/labstack/echo
+RUN go get github.com/dgrijalva/jwt-go
 
 WORKDIR /go/src/imp-slipped-away-server
 
